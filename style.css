@@ -1,3 +1,37 @@
+* {
+    color: white;
+}
+
+
+body {
+    background-color: black;
+    background-image: url(https://cdn.prod.website-files.com/6454d31338f3f4b0b5ecdf5f/648e70dafbc9723b6a91f943_Anomali-Hacker-Tactics-Series.webp);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+    
+}
+
+main {
+    max-width: 1080px;
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer {
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: black;
+
+    padding: 5px 20% 5px 20%;
+    
+
+}
 
 
 .cabecalho {
@@ -5,12 +39,19 @@
     justify-content: center;
     align-items: center;
     
+    background-color: black;
+    
+}
+
+#titulo, #subtitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 #titulo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font
+    font-size: 20px;
 }
 
-
-
+#subtitulo {
+    font-size: 16px;
+}
