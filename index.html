@@ -15,47 +15,43 @@
 
 <!--Corpo-->
 <body>
-    <!--Cabeçalho do Site, com o Titulo e subtitulo do Evento-->
-    <header>
-
-        
-        <!--informações que possa ser tirada do site-->
-        <article>
-            
-            <div class = "cabecalho" id = "titulo">
-                <!--Titulo-->
-                <h1>TechConnect 2025</h1>
-            </div>
-            <div class = "cabecalho" id = "subtitulo">
-                <!--Subtitulo-->
-                <h3>Conectando ideias, criando o futuro</h3>
+    <!--Cabeçalho do Site, com o Titulo e logo do Evento-->
+    <header>      
+        <!--Div do fundo do cabeçalho-->
+        <div class = "cabecalho" id = "titulo">
+            <!-- Div da logo-->
+            <div id = "logo">
+                <img src ="Assets/Logo.png" alt="Logo do Evento 'Tech Connect'">
             </div>
             
-            <!-- Area de navegação, podendo acessar diretamente os topicos/seções-->
-            <nav class="cabecalho" id="nav">
-                    <p>
-                        <a href="#sobreevento">Sobre o evento</a>
-                        <a> <strong> | </strong></a>
-                        <a href="#programacao">Programação</a>
-                        <a> <strong> | </strong></a>
-                        <a href="#palestrantes">Palestrantes</a>
-                        <a> <strong> | </strong></a>
-                        <a href="#inscricoes">Inscrições</a>
-                        <a> <strong> | </strong></a>
-                        <a href="#contato">Contato</a>
-                    </p>
+            <!-- Div de navegação, podendo acessar diretamente os topicos/seções-->
+            <nav id = "navegacao" id="nav">
+                <p>
+                    <a href="#sobreevento">Sobre o evento</a>
+                    <a> <strong> | </strong></a>
+                    <a href="#programacao">Programação</a>
+                    <a> <strong> | </strong></a>
+                    <a href="#palestrantes">Palestrantes</a>
+                    <a> <strong> | </strong></a>
+                    <a href="#inscricoes">Inscrições</a>
+                    <a> <strong> | </strong></a>
+                    <a href="#contato">Contato</a>
+                </p>
             </nav>
-            
+        </div>   
 
-        </article>
-        
-        
     </header>
 
     <main>
-        
-        
-    
+          
+        <div id = "tela_inicial">
+            <p id = "subtitulo">
+                <Strong>Criando idéias <br> Criando o futuro</Strong>
+            </p>
+        </div>
+
+
+
         <!--Seção sobre a Descrição do evento-->
         <section>
             
@@ -228,27 +224,42 @@
 <!--Rodapé do site-->
 <footer>
 
-    <!--aside por não ser algo essencial para o site-->
-    <aside>
-        <!--Mensagem de agradecimento-->
+    <div id = "logo_rodape">
+        <img src ="Assets/Logo-transparente.png" alt="Logo do Evento 'Tech Connect'">
+    </div>
+
+    <!--Mensagem de agradecimento-->
+    <div id = "informacoes_adicionais">
+
         <p>Obrigado por visitar! tech Connect 2025 espera por você!</p>
 
         <!--Lista dos integrantes do grupo-->
-        <p><Strong>Integrantes do grupo:</Strong></p>
+        <p>techconnect@techconnect.com | +55 83 4002-8922
+            <br> Rua Mariano Procóprio, 37 – Centro  
+            <br> CEP 58.429-140
+            <br> Campina Grande, Paraíba
+            <br> Brasil
+        </p>
+
+        <!--Direitos autorais-->
+        <p>&copy; Tech Connect 2025</p>
+
+    </div>
+    
+    <!-- Lista de contatos -->
+    <div id = "contatos">
+
+        <h2>Contato</h2>
+
         <ul>
-            <li>Thiago Henriques Nunes</li>
-            <li>Kauan Selyson Dias Gonzaga</li>
-            <li>Icaro Vinicius Araujo Almeida</li>
-            <li>Douglas Rodrigues de Almeida</li>
-            <li>Luiz Felipe Azevedo de Brito</li>
-            <li>Miqueias Souza Regis</li>
+            <li><a href="https://www.instagram.com/techconnect/">Instagram: @TechConnect</a></li>
+            <li><a href="https://facebook.com/people/TechConnect">Facebook: /TechConnect.fb</a></li>
+            <li><a href="https://x.com/tech_connect">Twitter: @tech_connect</a></li>
         </ul>
-    </aside>
 
-    <hr>
-
-    <!--Direitos autorais-->
-    <p>&copy; Tech Connect 2025</p>
+        
+    </div>
+    
 </footer>
 
 <!--FIM :)-->
