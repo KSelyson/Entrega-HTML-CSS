@@ -18,7 +18,7 @@ body {
     background-attachment: fixed;
 
     margin: 0;
-    background-color: white;
+    background-color: #F5F5F5;
 }
 
 footer {
@@ -26,11 +26,11 @@ footer {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #F5F5F5;
+    position: relative;
     background-image: url(Assets/Back_Footer.png);
-
     
     height: 36vh;
+    margin-top: -100px;
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -51,9 +51,6 @@ header{
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Rubik one';
 
-}
-
-main{
 }
 
 #logo{
@@ -116,7 +113,7 @@ main{
 .sub-titulo h1{
     font-family: 'Rubik One', sans-serif;
     color: #17D492;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 44px;
     margin-bottom: 10px;
     padding-bottom: 5%;
@@ -159,3 +156,109 @@ main{
     width: 50vw;
     height: 80vh;
 }
+
+#container-incricoes{
+    display: flex;
+
+}
+
+#img-inscricoes{
+    display: flex;
+
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-inscricoes img{
+    width: 100%;
+}
+
+#inscricoes{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+    width: 50%;
+}
+
+#enviar-button{
+    display: flex;
+    align-items: center;
+}
+
+#enviar-button button{
+    border: none;
+    background-color: #17D492;
+    padding: 0.8rem 4rem;
+    margin-right: 4vh;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px black;
+}
+
+#enviar-button button::after{
+    background-color: #13B57D;
+}
+
+#enviar-button button span{
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    width: 250px;
+    height: 25px;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+}
+
+.input-box input:hover{
+    background-color: grey;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #17D492;
+}
+
+
+.input-group{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+#primeira-linha h1{
+    font-family: 'Rubik One', sans-serif;
+    color: #17D492;
+    font-weight: normal;
+    font-size: 44px;
+    margin-bottom: 10px;
+    padding-bottom: 5%;
+}
+
+#primeira-linha h1::after{
+    content: "";
+    display: block;
+    width: 10rem;
+    height: 4px;
+    background-color: #9A9A9A;
+    margin-top: 4px;
+    border-radius: 10px;
+}
+

@@ -182,38 +182,61 @@
     
         <!--Seção onde será feita a incrições dos participantes-->
         <section>
-            <!--Titulo de 2° tamanho para a seção-->
-            <h2 id="inscricoes">Inscrições</h2>
-            <form action="#" method="post">
-                <!--Input do Nome-->
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required><br><br>
+
+            <div id="container-incricoes">
+
+                <!--Imagem da tela-->
+                <div id="img-inscricoes">
+                    <img src="Assets/evento.png" alt="Imagem do evento">
+                </div>
+
+                <!--Formulario-->
+                <div id="inscricoes">
+
+                    <div id="form">
+                        
+                        <form>
+
+                            <div id="primeira-linha">
+                                <h1>INSCRIÇÕES</h1>
+                            </div>
+                            
+                            <div class="input-group">
+                                <div class="input-box">
+                                    <label for="primeironome">Primeiro Nome</label>
+                                    <input id="primeironome" type="text" name="primeironome" placeholder="Digite seu primeiro nome" required>
+                                </div>
+            
+                                <div class="input-box">
+                                    <label for="segundonome">Segundo Nome</label>
+                                    <input id="segundonome" type="text" name="segundonome" placeholder="Digite seu segundo nome" required>
+                                </div>
+
+                            </div>
+
+                            <div class="input-group">
+                                <div class="input-box">
+                                    <label for="email">E-mail</label>
+                                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                                </div>
         
-                <!--Inputa do Email-->
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-                
-                <!--Botão de enviar-->
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+                                <div id="enviar-button">
+                                    <button><span>Enviar</span></button>
+                                </div>
+
+                            </div>
     
-        <!--Seção das formas de contato do evento-->
-        <section>
-    
-            <!--Titulo de 2° tamanho para a seção-->
-            <h2 id="contato">Contato</h2>
+                        </form>
+                    </div>
+
+                    <div id="avisos-inscricoes">
+                        
+                    </div>
+                </div>
+            </div>
+
+
             
-            <!--Email do evento-->
-            <p>Email: <a href="mailto:techconnect@connect.com">techconnect@connect.com</a></p>
-            
-            <!--Lista das Redes Sociais do evento-->
-            <p>Redes Sociais:</p>
-            <ul>
-                <li><a href="https://www.instagram.com/techconnect/">Instagram: @TechConnect</a></li>
-                <li><a href="https://facebook.com/people/TechConnect">Facebook: /TechConnect.fb</a></li>
-                <li><a href="https://x.com/tech_connect">Twitter: @tech_connect</a></li>
-            </ul>
         </section>
     </main>
 </body>
