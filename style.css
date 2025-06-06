@@ -37,6 +37,7 @@ footer {
 
 header{
     position: sticky;
+    z-index: 1000;
     top: 0;
 }
 
@@ -50,7 +51,6 @@ header{
 
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Rubik one';
-
 }
 
 #logo{
@@ -150,7 +150,7 @@ header{
 }
 
 .predio{
-    background-image: url('Assets/predio.png');
+    background-image: url(Assets/predio.png);
     background-repeat: no-repeat;
     background-position: flex-start;
     background-size:cover;
@@ -158,17 +158,51 @@ header{
     height: 80vh;
 }
 
+.container-prog{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 100vh;
+}
+
+/*TO DO tabela de programação*/
+
+.container-azul{
+    background-image: url(Assets/Back-azul.png);
+    background-repeat: no-repeat;
+
+    width: 100%;
+}
+
+.container-verde{
+    position: relative;
+
+    margin-top: -100px;
+}
+
+.container-palestrantes{
+    display: flex;
+
+/* TO DO tabela de palestrantes*/
+    width: 100%;
+    height: 100vh;
+}
+
+
 #container-incricoes{
     display: flex;
 
 }
 
 #img-inscricoes{
-    display: flex;
+    background-image: url(Assets/evento.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 
-    width: 50%;
-    justify-content: center;
-    align-items: center;
+    width: 50vw;
+    height: 90vh;
 }
 
 #img-inscricoes img{
@@ -231,7 +265,7 @@ header{
 }
 
 .input-box input:hover{
-    background-color: grey;
+    background-color: #f7f7f7;
 }
 
 .input-box input:focus-visible{
@@ -241,7 +275,6 @@ header{
 .input-box label {
     color: black;
 }
-
 
 .input-group{
     display: flex;

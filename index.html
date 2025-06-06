@@ -45,15 +45,18 @@
     </header>
 
     <main>
-          
-        <div id = "tela_inicial">
+
+        <!-------------------Seção da tela inicial------------------->
+        <section>
+            <div id = "tela_inicial">
             <p id = "subtitulo">
                 <Strong>Criando idéias <br> Criando o futuro</Strong>
             </p>
-        </div>
-
-
-        <!--Seção sobre o evento-->
+            </div>
+        </section>
+        <!-------------------Fim da Seção------------------->
+        
+        <!-------------------Seção sobre o evento------------------->
         <section id = "sobreevento">
             <div class="predio">
                 
@@ -83,93 +86,118 @@
             </div>
             
         </section>
+        <!-------------------Fim da Seção------------------->
     
-        <!--Seção sobre a programação do evento-->
+        <!-------------Seção sobre a programação do evento------------->
         <section>
-            <!--Titulo de 2° tamanho para a seção-->
-            <h2 id="programacao">Programação</h2>
+
+            <div class="container-prog">
+                
+                <div class="container-azul">
     
-            <!--Tabela informando a programação-->
-            <table border="3">
-                <tr>
-                    <!--Colunas da tabela-->
-                    <th>HORARIO</th>
-                    <th>DESCRICAO</th>
-                </tr>
-    
-                <!--Informações/Linhas da tabela-->
-                <tr>
-                    <td>08h00</td>
-                    <td>Abertura</td>
-                </tr>
-                <tr>
-                    <td>09h00</td>
-                    <td>Palestra: "IA na Educação"</td>
-                </tr>
-                <tr>
-                    <td>11h00</td>
-                    <td>Painel: "Startups e Tecnologia Sustentável"</td>
-                </tr>
-                <tr>
-                    <td>12h00</td>
-                    <td>Workshop: "Introdução ao Desenvolvimento Web"</td>
-                </tr>
-                <tr>
-                    <td>14h00</td>
-                    <td>Painel: "Blockchain e o Futuro da Segurança Digital"</td>
-                </tr>
-                <tr>
-                    <td>15h00</td>
-                    <td>Workshop: "Design de Interfaces para Experiência do Usuário"</td>
-                </tr>
-                <!--Fim da tabela-->
-            </table>
+                    <!--Titulo de 2° tamanho para a seção-->
+                    <h2 id="programacao">Programação</h2>
+                    <!--Tabela informando a programação-->
+                    <table border="3">
+                        <tr>
+                            <!--Colunas da tabela-->
+                            <th>HORARIO</th>
+                            <th>DESCRICAO</th>
+                        </tr>
+                    
+                        <!--Informações/Linhas da tabela-->
+                        <tr>
+                            <td>08h00</td>
+                            <td>Abertura</td>
+                        </tr>
+                        <tr>
+                            <td>09h00</td>
+                            <td>Palestra: "IA na Educação"</td>
+                        </tr>
+                        <tr>
+                            <td>11h00</td>
+                            <td>Painel: "Startups e Tecnologia Sustentável"</td>
+                        </tr>
+                        <tr>
+                            <td>12h00</td>
+                            <td>Workshop: "Introdução ao Desenvolvimento Web"</td>
+                        </tr>
+                        <tr>
+                            <td>14h00</td>
+                            <td>Painel: "Blockchain e o Futuro da Segurança Digital"</td>
+                        </tr>
+                        <tr>
+                            <td>15h00</td>
+                            <td>Workshop: "Design de Interfaces para Experiência do Usuário"</td>
+                        </tr>
+                        <!--Fim da tabela-->
+                    </table>
+                </div>
+                
+                <div class="container-verde">
+                    <img src="Assets/Back-verde.png" alt="elemento de estilização verde">
+                </div>
+            </div>
         </section>
+        <!-------------------Fim da Seção------------------->
+            
+
     
-        <!--Seção dos palestrantes do evento-->
+        <!--------------------Seção dos palestrantes do evento-------------------->
         <section>
             
-            <!--Titulo de 2° tamanho para a seção-->
-            <h2 id="palestrantes">Palestrantes</h2>
-    
-            <article>
-                <!--Tabela informando os palestrantes-->
-                <table border="3">
-                    <tr>
-                        <!--Colunas da tabela-->
-                        <th>Imagem</th>
-                        <th>Nome</th>
-                        <th>Tema da Palestra</th>
-                        <th>Minibiografia</th>
-                    </tr>
-    
-                    <!--Informações/Linhas da tabela-->
-                    <tr>
-                        <th><img src="https://media.licdn.com/dms/image/v2/D4E03AQGZyXS3UPKeeQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729255392970?e=1752710400&v=beta&t=DxgL5euth_5cCnKo835zn2oQxTXc4GeNbGOpDe5q5oo" alt="Thiago"></th>
-                        <td><h3>Thiago Henriques</h3></td>
-                        <td>Importância da CyberSegurança</td>
-                        <td>Atua como arquiteto de software e tem uma sólida trajetória liderando projetos de
-                            transformação digital em grandes empresas. Com foco em arquitetura de microserviços,
-                            ele também é mentor de jovens talentos na área de tecnologia.</td>
-                    </tr>
-                    <tr>
-                        <th><img src="https://media.licdn.com/dms/image/v2/D4D03AQEs5HWKnB3_GQ/profile-displayphoto-shrink_200_200/B4DZPfZ_NGGkAY-/0/1734619954470?e=1752710400&v=beta&t=xG4Tp1LU6Dsec6sExlcXl2ACT9hA8ZWJZaTzTeQO0HU" alt="Kauan"></th>
-                        <td><h3>Kauan Selyson</h3></td>
-                        <td>Impactos da inteligência Artifical no Mercado Atual</td>
-                        <td>É um desenvolvedor full stack apaixonado por inovação, com experiência em criar
-                            soluções escaláveis para startups. Especialista em JavaScript e cloud computing, 
-                            ele é conhecido por sua habilidade em transformar ideias complexas em produtos funcionais.</td>
-                    </tr>
-                    <tr>
-                        <th><img src="https://media.licdn.com/dms/image/v2/D4D03AQHLWKBYEhxM5Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710963044891?e=1752710400&v=beta&t=w2A0ol0qEDjoYZKGli6MA7hkS59qvy0zwOvPR9ELqpQ" alt="Douglas"></th>
-                        <td><h3>Douglas Almeida</h3></td>
-                        <td>Impacto da Sexualização Digital</td>
-                        <td>É um engenheiro de dados dedicado à análise e integração de grandes volumes de informação.
-                            Com forte atuação em projetos de machine learning e inteligência artificial, ele busca
-                            sempre formas de extrair valor estratégico dos dados.</td>
-                    </tr>
-                    <!--Fim da tabela-->
-                </table>
+            <div class="container-palestrantes">
+
+                <div id="tabela">
+
+                    <!--Titulo de 2° tamanho para a seção-->
+                    <h2 id="palestrantes">Palestrantes</h2>
+
+                    <article>
+                        <!--Tabela informando os palestrantes-->
+                        <table border="3" id="t-pales">
+                            <tr>
+                                <!--Colunas da tabela-->
+                                <th>Imagem</th>
+                                <th>Nome</th>
+                                <th>Tema da Palestra</th>
+                                <th>Minibiografia</th>
+                            </tr>
+                        
+                            <!--Informações/Linhas da tabela-->
+                            <tr>
+                                <th><img src="https://media.licdn.com/dms/image/v2/D4E03AQGZyXS3UPKeeQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729255392970?e=1752710400&v=beta&t=DxgL5euth_5cCnKo835zn2oQxTXc4GeNbGOpDe5q5oo" alt="Thiago"></th>
+                                <td><h3>Thiago Henriques</h3></td>
+                                <td>Importância da CyberSegurança</td>
+                                <td>Atua como arquiteto de software e tem uma sólida trajetória liderando projetos de
+                                    transformação digital em grandes empresas. Com foco em arquitetura de microserviços,
+                                    ele também é mentor de jovens talentos na área de tecnologia.</td>
+                            </tr>
+                            <tr>
+                                <th><img src="https://media.licdn.com/dms/image/v2/D4D03AQEs5HWKnB3_GQ/profile-displayphoto-shrink_200_200/B4DZPfZ_NGGkAY-/0/1734619954470?e=1752710400&v=beta&t=xG4Tp1LU6Dsec6sExlcXl2ACT9hA8ZWJZaTzTeQO0HU" alt="Kauan"></th>
+                                <td><h3>Kauan Selyson</h3></td>
+                                <td>Impactos da inteligência Artifical no Mercado Atual</td>
+                                <td>É um desenvolvedor full stack apaixonado por inovação, com experiência em criar
+                                    soluções escaláveis para startups. Especialista em JavaScript e cloud computing, 
+                                    ele é conhecido por sua habilidade em transformar ideias complexas em produtos funcionais.</td>
+                            </tr>
+                            <tr>
+                                <th><img src="https://media.licdn.com/dms/image/v2/D4D03AQHLWKBYEhxM5Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710963044891?e=1752710400&v=beta&t=w2A0ol0qEDjoYZKGli6MA7hkS59qvy0zwOvPR9ELqpQ" alt="Douglas"></th>
+                                <td><h3>Douglas Almeida</h3></td>
+                                <td>Impacto da Sexualização Digital</td>
+                                <td>É um engenheiro de dados dedicado à análise e integração de grandes volumes de informação.
+                                    Com forte atuação em projetos de machine learning e inteligência artificial, ele busca
+                                    sempre formas de extrair valor estratégico dos dados.</td>
+                            </tr>
+                            <!--Fim da tabela-->
+                        </table>
+
+                </div>
+
+            </div>
+
+
+            
             </article>
     
             <!--Informações adicionais-->
@@ -179,15 +207,16 @@
             </aside>
     
         </section>
+        <!-------------------Fim da Seção------------------->
     
-        <!--Seção onde será feita a incrições dos participantes-->
+        <!-------------------Seção onde será feita a incrições dos participantes------------------->
         <section>
 
             <div id="container-incricoes">
 
                 <!--Imagem da tela-->
                 <div id="img-inscricoes">
-                    <img src="Assets/evento.png" alt="Imagem do evento">
+                    
                 </div>
 
                 <!--Formulario-->
@@ -238,11 +267,13 @@
 
             
         </section>
+        <!-------------------Fim da Seção------------------->
+
     </main>
 </body>
 <!--Fim do corpo do site-->
 
-<!--Rodapé do site-->
+<!-------------------Rodapé do site------------------->
 <footer>
 
     <div id = "logo_rodape">
