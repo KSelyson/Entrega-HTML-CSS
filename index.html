@@ -228,67 +228,75 @@
 
         <!-------------------Seção onde será feita a incrições dos participantes------------------->
         <section id="inscricoes">
+            <div class="container-inscricoes">
+                <img src="Assets/evento.png" alt="imagem do evento">
 
-            <div id="container-incricoes">
+                <div class="inscricoes-div">
+                    <h1>INSCRIÇÕES</h1>
 
-                <!--Imagem da tela-->
-                <div id="img-inscricoes">
-
-                </div>
-
-                <!--Formulario-->
-                <div>
-
-                    <div id="form">
-
-                        <form>
-
-                            <div id="primeira-linha">
-                                <h1>INSCRIÇÕES</h1>
-                            </div>
-
+                    <div class="form-container">
+                        <form action="#" method="post">
                             <div class="input-group">
-                                <div class="input-box">
-                                    <label for="primeironome">Primeiro Nome</label>
-                                    <input id="primeironome" type="text" name="primeironome"
-                                        placeholder="Digite seu primeiro nome" required>
+                                <div class="form-control">
+                                    <label for="primeiro-nome">Primeiro Nome</label>
+                                    <input type="text" id="primeiro-nome" name="primeiro-nome">
                                 </div>
 
-                                <div class="input-box">
-                                    <label for="segundonome">Segundo Nome</label>
-                                    <input id="segundonome" type="text" name="segundonome"
-                                        placeholder="Digite seu segundo nome" required>
+                                <div class="form-control">
+                                    <label for="segundo-nome">Segundo Nome</label>
+                                    <input type="text" id="segundo-nome" name="segundo-nome">
                                 </div>
-
                             </div>
 
-                            <div class="input-group">
-                                <div class="input-box">
-                                    <label for="email">E-mail</label>
-                                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail"
-                                        required>
-                                </div>
-
-                                <div id="enviar-button">
-                                    <button><span>Enviar</span></button>
-                                </div>
-
+                            <div class="form-control full-width">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email">
                             </div>
 
+                            <div class="enviar-button">
+                                Enviar
+                            </div>
                         </form>
                     </div>
 
-                    <div id="avisos-inscricoes">
+                    <div class="avisos-inscricoes">
+                        <h3 class="passos-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            O que fazer agora?
+                        </h3>
 
+                        <ol class="passos-list">
+                            <li>
+                                <strong>Verifique a sua caixa de e-mail!</strong>
+                                <p>Verifique o e-mail de confirmação que acabamos de enviar. Se não encontrar, dê uma
+                                    olhada
+                                    também na pasta de spam ou lixo eletrônico.</p>
+                            </li>
+                            <li>
+                                <strong>Acesse o link do participante:</strong>
+                                <p>No e-mail, você encontrará um link exclusivo para acessar o evento e materiais
+                                    adicionais. Guarde bem!</p>
+                            </li>
+                            <li>
+                                <strong>Siga-nos nas redes sociais:</strong>
+                                <p>Fique por dentro das novidades e atualizações do evento.</p>
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>
-
-
+        </section>
+        <!-------------------Fim da Seção------------------->
+        <!-------------------Seção onde será feita a incrições dos patrocinadores------------------->
+        <section id="patrocinadores">
 
         </section>
         <!-------------------Fim da Seção------------------->
-
     </main>
 </body>
 <!--Fim do corpo do site-->
