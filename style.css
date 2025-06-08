@@ -1,5 +1,6 @@
 * {
     color: white;
+
 }
 
 a{
@@ -39,6 +40,8 @@ header{
     position: sticky;
     z-index: 1000;
     top: 0;
+    border-bottom: 1px solid rgb(18, 35, 46);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .cabecalho {
@@ -51,6 +54,7 @@ header{
 
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Rubik one';
+    height: 13vh;
 }
 
 #logo{
@@ -58,14 +62,17 @@ header{
 }
 
 #tela_inicial{
+    position: relative;
+    overflow: hidden;
     display: flex;
     align-items: flex-end;
-    background-image: url(Assets/Body.png);
     width: 100%;
     height: 85vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+}
+
+.video-background{
+    position: absolute;
+    z-index: -1;
 }
 
 #subtitulo{
@@ -110,6 +117,10 @@ header{
     max-width: 50vw;
 }
 
+section{
+    scroll-margin-top: 13vh;
+}
+
 .sub-titulo h1{
     font-family: 'Rubik One', sans-serif;
     color: #17D492;
@@ -142,7 +153,7 @@ header{
 .sub-info {
     font-family: 'Open Sans', sans-serif;
     color: #000000;
-    font-size: 16px;
+    font-size: 19px;
     text-align: justify;
     margin-bottom: 30px;
     margin-right: 30px;
@@ -156,30 +167,76 @@ header{
     background-size:cover;
     width: 50vw;
     height: 80vh;
+    z-index: -2;
 }
 
 .container-prog{
     display: flex;
-    justify-content: space-between;
-
-    width: 100%;
+    align-items:stretch;
     height: 100vh;
-}
-
-/*TO DO tabela de programação*/
-
-.container-azul{
-    background-image: url(Assets/Back-azul.png);
+    gap: 10px;
+    background-image: url(Assets/programacao-background.png);
     background-repeat: no-repeat;
-
-    width: 100%;
+    background-size: cover;
+    background-position: center top; 
+    margin-top: -17px;
 }
 
-.container-verde{
-    position: relative;
-
-    margin-top: -100px;
+.tabela-programacao {
+    max-width: 850px; 
+    width: 80%;       
+    margin-left: 9%;  
+    margin-top: 8%;
+    max-height: 55vh; 
+    padding: 25px;
+    background-color: #004656;
+    border-radius: 20px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.programacao-header,
+.programacao-linha {
+    background-color: #005163;
+    display: flex;
+    flex-direction: row; 
+    border-radius: 12px; 
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 400; 
+    color: #f0f8ff;
+}
+
+.programacao-header {
+    background-color: #006278;
+    font-weight: 600; 
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+
+.programacao-header .coluna:first-child {
+    flex: 0 0 35%;
+}
+
+.coluna-tempo {
+    flex: 0 0 35%; 
+    font-weight: 600;
+    color: #a7e0e0; 
+}
+
+.programacao-header .coluna:last-child {
+    flex: 1; 
+}
+
+.coluna-info {
+    flex: 1; 
+}
+
 
 .container-palestrantes{
     display: flex;
@@ -217,9 +274,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
 
-    width: 50%;
+    width: 100%;
 }
 
 #enviar-button{
