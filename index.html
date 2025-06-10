@@ -38,8 +38,7 @@
                     <a href="#palestrantes">Palestrantes</a>
                     <a> <strong> | </strong></a>
                     <a href="#inscricoes">Inscrições</a>
-                    <a> <strong> | </strong></a>
-                    <a href="#contato">Contato</a>
+                    
                 </p>
             </nav>
         </div>
@@ -135,93 +134,66 @@
                         <div class="coluna-tempo">18:00 - 19:00</div>
                         <div class="coluna-info">Revisão e organização para o dia seguinte</div>
                     </div>
-                    <div class="programacao-linha">
-                        <div class="coluna-tempo">19:00 - 19:30</div>
-                        <div class="coluna-info">Revisão e organização para o dia seguinte</div>
-                    </div>
 
                 </div>
             </div>
         </section>
         <!-------------------Fim da Seção------------------->
-
-
-
-        <!--------------------Seção dos palestrantes do evento-------------------->
+        
+        <!--------------------Seção de Cards dos Palestrantes-------------------->
         <section id="palestrantes">
 
+            <div class="titulo-palestrantes">
+                <h1>Palestrantes</h1>
+            </div>
             <div class="container-palestrantes">
 
-                <div id="tabela">
+                <div class="card-palestrante">
+                    <div class="img-palestrante">
+                        <img src="https://media.licdn.com/dms/image/v2/D4E03AQGZyXS3UPKeeQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729255392970?e=1752710400&v=beta&t=DxgL5euth_5cCnKo835zn2oQxTXc4GeNbGOpDe5q5oo" 
+                            alt="Palestrante Thiago">
+                    </div>
 
-                    <!--Titulo de 2° tamanho para a seção-->
-                    <h2>Palestrantes</h2>
+                    <h1>Thiago <br><span>Henriques</span></h1>
 
-                    <article>
-                        <!--Tabela informando os palestrantes-->
-                        <table border="3" id="t-pales">
-                            <tr>
-                                <!--Colunas da tabela-->
-                                <th>Imagem</th>
-                                <th>Nome</th>
-                                <th>Tema da Palestra</th>
-                                <th>Minibiografia</th>
-                            </tr>
+                    <div class="text-palestrante">
+                        Atua como arquiteto de software e tem uma sólida trajetória liderando projetos de
+                            transformação digital em grandes empresas. Com foco em arquitetura de microserviços,
+                            ele também é mentor de jovens talentos na área de tecnologia.
+                    </div>
+                </div>
+                <div class="card-palestrante">
+                    <div class="img-palestrante">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEs5HWKnB3_GQ/profile-displayphoto-shrink_200_200/B4DZPfZ_NGGkAY-/0/1734619954470?e=1752710400&v=beta&t=xG4Tp1LU6Dsec6sExlcXl2ACT9hA8ZWJZaTzTeQO0HU" 
+                            alt="Palestrante Kauan">
+                    </div>
 
-                            <!--Informações/Linhas da tabela-->
-                            <tr>
-                                <th><img src="https://media.licdn.com/dms/image/v2/D4E03AQGZyXS3UPKeeQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729255392970?e=1752710400&v=beta&t=DxgL5euth_5cCnKo835zn2oQxTXc4GeNbGOpDe5q5oo"
-                                        alt="Thiago"></th>
-                                <td>
-                                    <h3>Thiago Henriques</h3>
-                                </td>
-                                <td>Importância da CyberSegurança</td>
-                                <td>Atua como arquiteto de software e tem uma sólida trajetória liderando projetos de
-                                    transformação digital em grandes empresas. Com foco em arquitetura de microserviços,
-                                    ele também é mentor de jovens talentos na área de tecnologia.</td>
-                            </tr>
-                            <tr>
-                                <th><img src="https://media.licdn.com/dms/image/v2/D4D03AQEs5HWKnB3_GQ/profile-displayphoto-shrink_200_200/B4DZPfZ_NGGkAY-/0/1734619954470?e=1752710400&v=beta&t=xG4Tp1LU6Dsec6sExlcXl2ACT9hA8ZWJZaTzTeQO0HU"
-                                        alt="Kauan"></th>
-                                <td>
-                                    <h3>Kauan Selyson</h3>
-                                </td>
-                                <td>Impactos da inteligência Artifical no Mercado Atual</td>
-                                <td>É um desenvolvedor full stack apaixonado por inovação, com experiência em criar
-                                    soluções escaláveis para startups. Especialista em JavaScript e cloud computing,
-                                    ele é conhecido por sua habilidade em transformar ideias complexas em produtos
-                                    funcionais.</td>
-                            </tr>
-                            <tr>
-                                <th><img src="https://media.licdn.com/dms/image/v2/D4D03AQHLWKBYEhxM5Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710963044891?e=1752710400&v=beta&t=w2A0ol0qEDjoYZKGli6MA7hkS59qvy0zwOvPR9ELqpQ"
-                                        alt="Douglas"></th>
-                                <td>
-                                    <h3>Douglas Almeida</h3>
-                                </td>
-                                <td>Impacto da Sexualização Digital</td>
-                                <td>É um engenheiro de dados dedicado à análise e integração de grandes volumes de
-                                    informação.
-                                    Com forte atuação em projetos de machine learning e inteligência artificial, ele
-                                    busca
-                                    sempre formas de extrair valor estratégico dos dados.</td>
-                            </tr>
-                            <!--Fim da tabela-->
-                        </table>
+                    <h1>Kauan <br><span>Gonzaga</span></h1>
 
+                    <div class="text-palestrante">
+                        É um desenvolvedor full stack apaixonado por inovação, com experiência em criar
+                            soluções escaláveis para startups. Especialista em JavaScript e cloud computing,
+                            ele é conhecido por sua habilidade em transformar ideias complexas em produtos
+                            funcionais.
+                    </div>
+                </div>
+                <div class="card-palestrante">
+                    <div class="img-palestrante">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHLWKBYEhxM5Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1710963044891?e=1752710400&v=beta&t=w2A0ol0qEDjoYZKGli6MA7hkS59qvy0zwOvPR9ELqpQ" 
+                            alt="Palestrante Douglas">
+                    </div>
+
+                    <h1>Douglas <br><span>Almeida</span></h1>
+
+                    <div class="text-palestrante">
+                        É um engenheiro de dados dedicado à análise e integração de grandes volumes de informação.
+                            Com forte atuação em projetos de machine learning e inteligência artificial, ele busca
+                            sempre formas de extrair valor estratégico dos dados.
+                    </div>
                 </div>
 
             </div>
-
-
-
-            </article>
-
-            <!--Informações adicionais-->
-            <aside>
-                <h4>Dica do Evento</h4>
-                <p>Todos os palestrantes estarão disponíveis para uma sessão de perguntas e respostas no final da
-                    conferência.</p>
-            </aside>
+        </section>
 
         </section>
         <!-------------------Fim da Seção------------------->
