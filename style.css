@@ -489,5 +489,68 @@ section {
     cursor: pointer;
 }
 
+@media screen and (max-width:896px) {
+    #logo{
+        width: 100px;
+    }
+
+    #tela_inicial{
+        background-size: 100% 100%;
+    }
+
+    #subtitulo{
+        text-align: center;
+        font-size: 3vh;
+        margin: auto;
+        padding: 5px 35px 5px 5px;
+    }
+    
+    .predio{
+        display: none;
+    }
+
+    .cabecalho{
+        height: 6vh;
+        font-size: 12px;
+    }
+
+    #tela_inicial{
+        height: 62vh;
+    }
+
+    .sub-titulo h1{
+        font-size: 23px;
+    }
+
+    .sub-info{
+        font-size: 15px;
+    }
+
+    .informacoes-evento{
+        margin: auto;
+        max-width: 70vw;
+    }
+
+    #imagem_evento{
+        display: none;
+    }
+
+    .programacao-header, .programacao-linha{
+        font-size: 11px;
+    }
+
+    .tabela-programacao{
+        margin: auto;
+        width: 73%;
+        margin-right:44px ;
+        max-height: 100%;
+    }
+
+    .container-prog{
+        background-size: 100% 100%;
+        height: 69vh;
+    }
+
+}
 
 
