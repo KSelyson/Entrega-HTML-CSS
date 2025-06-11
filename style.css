@@ -278,7 +278,6 @@ section {
     background-color: #9A9A9A;
     margin-top: 10px;
     border-radius: 5px;
-
     margin-left: 30%; 
 }
 
@@ -323,13 +322,61 @@ section {
 
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    color: #000000;
+    color: #303030;
     font-size: 17px;
     white-space: normal;
 
-    background-color: #a5a5a5;
+    background-color: #BDBDBD;
+    
     border-radius: 5px;
     padding: 30px 5px;
+
+    height: 200px;
+}
+
+/* seção de galeria */
+
+.container-imagens{
+    column-count: 3;
+    column-gap: 10px;
+
+    margin: 5vh 10vh 10vh 10vh;
+}
+
+.container-imagens img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.50);
+}
+
+.titulo-imagens{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.titulo-imagens h1 {
+    font-family: 'Rubik One', sans-serif;
+    color: #17D492;
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.titulo-imagens h1::after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 4px;
+    background-color: #9A9A9A;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 30%; 
 }
 
 /* seção das inscrições*/
