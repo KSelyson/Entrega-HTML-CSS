@@ -48,7 +48,7 @@ header {
     justify-content: space-between;
 
     background-color: #22323C;
-
+    
     padding: 10px;
 
     font-size: 20px;
@@ -61,6 +61,7 @@ header {
 }
 
 #tela_inicial {
+    color: white;
     position: relative;
     overflow: hidden;
     display: flex;
